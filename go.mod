@@ -1,4 +1,4 @@
-module github.com/grafana/loki-client-go
+module github.com/xxmfypp/loki-client-go
 
 go 1.15
 
@@ -7,6 +7,7 @@ require (
 	github.com/go-kit/kit v0.10.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/snappy v0.0.4
+	github.com/grafana/loki-client-go v0.0.0-20230116142646-e7494d0ef70c
 	github.com/json-iterator/go v1.1.12
 	github.com/mitchellh/mapstructure v1.4.3
 	github.com/opentracing/opentracing-go v1.2.0

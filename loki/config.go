@@ -4,10 +4,10 @@ import (
 	"flag"
 	"time"
 
-	"github.com/grafana/loki-client-go/pkg/backoff"
-	"github.com/grafana/loki-client-go/pkg/labelutil"
-	"github.com/grafana/loki-client-go/pkg/urlutil"
 	"github.com/prometheus/common/config"
+	"github.com/xxmfypp/loki-client-go/pkg/backoff"
+	"github.com/xxmfypp/loki-client-go/pkg/labelutil"
+	"github.com/xxmfypp/loki-client-go/pkg/urlutil"
 )
 
 // NOTE the helm chart for promtail and fluent-bit also have defaults for these values, please update to match if you make changes here.

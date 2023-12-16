@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki-client-go/pkg/backoff"
-	"github.com/grafana/loki-client-go/pkg/urlutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xxmfypp/loki-client-go/pkg/backoff"
+	"github.com/xxmfypp/loki-client-go/pkg/urlutil"
 
 	"gopkg.in/yaml.v2"
 )
